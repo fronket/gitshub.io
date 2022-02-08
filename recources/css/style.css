@@ -1,0 +1,168 @@
+* {
+}
+
+.body {
+  background-color: rgba(82, 38, 11, 0.6);
+  margin: 0px;
+}
+
+.body1 {
+  background-color: lightblue;
+  margin: 0px;
+}
+
+.klikmenu {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+  left: 0px;
+  right: 0px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-style: italic;
+  z-index: 2;
+  padding: 10px;
+  margin: 10px 20px;
+}
+
+.klikmenu .knopje {
+  border-style: solid;
+  border-radius: 10px;
+  background-color: green;
+  padding: 2px 16px;
+}
+
+.klikmenu :hover{
+  background-color: darkgreen;
+}
+
+#exotische {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/jungle_achtergrond.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px, 100%;
+  margin: 0px;
+  font-size: 50px;
+  font-family: Architects Daughter, Cursive;
+  color: white;
+}
+
+#zee_dieren {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/oceaan.jpg");
+  padding: 100px, 100%;
+  margin: 0px;
+  font-size: 50px;
+  font-family: Architects Daughter, Cursive;
+  color: white;
+}
+
+#land_dieren {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/grond.jpg");
+  padding: 100px, 100%;
+  margin: 0px;
+  font-size: 50px;
+  font-family: Architects Daughter, Cursive;
+  color: white;
+}
+
+#lucht_dieren {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/clouds-mf.jpg");
+  padding: 100px, 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 0px;
+  font-size: 50px;
+  font-family: Architects Daughter, Cursive;
+  color: white;
+}
+
+.introduction {
+  display: flex;
+  align-content: flex-start;
+  min-width: 50%;
+}
+
+.introduction .title {
+  font-size: 40px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  border-color: black;
+  width: 100%;
+  font-size: 40px;
+}
+
+.introduction .text {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-family: Quintessential, monospace;
+  font-size: 18px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  width:  100%;
+}
+
+.tekst{
+  padding: 10px;
+  font-family: Quintessential, monospace;
+  font-size: 18px;
+}
+
+.foto {
+  width: 610px;
+  border-radius: 10%;
+}
+
+.beest {
+  display: flex;
+  align-content: flex-start;
+  min-width: 50%
+}
+
+h2 {
+  font-size: 40px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  border-color: black;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#dierenrijk {
+  border-radius: 10%;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .introduction {
+    flex-wrap: wrap;
+  }
+
+  .beest {
+    flex-wrap: wrap;
+  }
+
+  .foto {
+    border-radius: 10%;
+    width: 1000px;
+  }
+}
